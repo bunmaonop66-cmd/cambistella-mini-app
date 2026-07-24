@@ -1,1 +1,90 @@
+/* ===================================
+   CAMBISTELLA Mini App v1.1
+=================================== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#eef5ff;
+    color:#222;
+    line-height:1.6;
+}
+
+/* ================= HEADER ================= */
+
+.header{
+    background:#0b3d91;
+    text-align:center;
+    padding:30px 20px;
+}
+
+.logo-text{
+    color:#FFD700;
+    font-size:36px;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+.tagline{
+    color:#ffffff;
+    margin-top:8px;
+    font-size:16px;
+}
+
+/* ================= NAVIGATION ================= */
+
+.navbar{
+    background:#08306b;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.navbar a{
+    color:#ffffff;
+    text-decoration:none;
+    padding:15px 20px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.navbar a:hover{
+    background:#FFD700;
+    color:#08306b;
+}
+
+/* ================= HERO ================= */
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+    background:linear-gradient(135deg,#0b5ed7,#5fa8ff);
+    color:#ffffff;
+}
+
+.hero h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    margin:10px 0;
+    font-size:18px;
+}
+
+.hero-buttons{
+    margin-top:25px;
+}
+
+.hero-buttons button{
+    margin:10px;
+}
