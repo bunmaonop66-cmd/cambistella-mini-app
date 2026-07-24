@@ -88,3 +88,107 @@ body{
 .hero-buttons button{
     margin:10px;
 }
+/* ================= PRODUCTS ================= */
+
+.products{
+
+    max-width:1200px;
+
+    margin:40px auto;
+
+    padding:20px;
+
+}
+
+.products h2{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+    color:#0b3d91;
+
+}
+
+.search-box{
+
+    display:flex;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    margin-bottom:30px;
+
+}
+
+.search-box input,
+.search-box select{
+
+    padding:12px;
+
+    border:1px solid #cccccc;
+
+    border-radius:8px;
+
+    min-width:240px;
+
+    font-size:16px;
+
+}
+
+#product-list{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:20px;
+
+}
+
+/* ================= CARD ================= */
+
+.product-card{
+
+    background:#ffffff;
+
+    border-radius:12px;
+
+    padding:20px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.12);
+
+    transition:.3s;
+
+}
+
+.product-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.product-card h3{
+
+    color:#0b3d91;
+
+    margin-bottom:10px;
+
+}
+
+.product-card p{
+
+    margin:8px 0;
+
+}
+
+.product-card button{
+
+    width:100%;
+
+    margin-top:12px;
+
+}
